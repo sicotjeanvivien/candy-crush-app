@@ -1,5 +1,18 @@
-.App {
-  text-align: center;
+.app {
+  display: flex;
+  padding: 30px;
+}
+
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
 }
 
 .App-logo {
@@ -32,6 +45,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
